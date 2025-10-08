@@ -1,0 +1,65 @@
+@font-face{
+    font-family: raju ;
+    src:url(./Aother\ Danger\ -\ Demo.otf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: boreder-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+h1{
+    color: pink  ;
+    
+    background-color:royalblue ;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+    text-align:center;
+    text-transform: uppercase; 
+
+    
+}
+#hero {
+    color: yellow;
+    background-color:black;
+    font-family: ;
+}
+
+.lm{
+    color: royalblue;
+}
+div{
+    height: 200px;
+    width:  200px;
+    background-color: black;
+}
+
+
+/* what is scc 
+   how to link css with html 
+   css ko kaise linkte hai 
+   boilaerplate as element or a tag 
+   font size 
+   font family 
+   font styel 
+   font weight
+   font height 
+   font color 
+   text align 
+   text transform
+   how download font form google 
+   how download font form any websit 
+   how to apply custom font
+   what is div 
+
+
+   today's task
+   
+    */
+
