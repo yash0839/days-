@@ -14,7 +14,7 @@ html,body{
     display: flex;
     gap: 30px;
     flex-wrap:wrap;
-    overflow: auto;
+    overflow: auto ;
 }
 .card{
     height:300px;
