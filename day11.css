@@ -1,0 +1,62 @@
+/* /* /* #outer{
+    height: 600px;
+    width: 600px;
+    background-color: lightseagreen;;
+}
+#inner{
+    height:100px;
+    width:100px;
+    background-color: lightblue;
+    background-image: url("C:\Users\New Dell 6\OneDrive\图片\133901461238437294.jpg");
+    background-size:cove; */
+/* } */
+/* #outer{
+    height: 600px;
+    width: 600px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNe4eNtxIfHXECV0-5Vnd8cG9DS_cPocjOJQ&s");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+/* 
+#box{
+    height:200px;
+    width:200px;
+    background-color: salmon;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+}
+
+button{
+    margin-left:100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:20px;
+    background-color: lightskyblue;
+}
+div{
+      height:150px;
+      width:150px;
+      background-color: lightcoral;
+      border:4px solid black; 
+      border-radius: 5px;
+}   */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    background-color: aqua;
+}

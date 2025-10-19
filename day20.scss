@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0%;
     padding: 0%;
@@ -46,4 +47,54 @@ main{
         background-image:url(./saidermen.jpg);
     }
 
+=======
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+    section{
+        height: 100%;
+        flex-grow: 1;
+        background-size: cover;
+        background-position: center;
+        background-color: black;
+        border: 2px solid black;
+        flex-grow: 1;
+        transition:all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+        cursor:pointer;
+    }
+    section:hover{
+        flex-grow: 3;
+    }
+
+    section:nth-child(1){
+        background-image: url(./ironman.jpg);
+    }
+    section:nth-child(2){
+        background-image:url(./loki.jpg);
+    }
+    section:nth-child(3){
+        background-image:url(./Thor.jpg);
+    }
+    section:nth-child(4){
+        background-image:url(./deadpool.jpg);
+    }
+    section:nth-child(5){
+        background-image:url(./saidermen.jpg);
+    }
+
+>>>>>>> dd7aacbf9d048719a8b16336ed216515b3726be2
 }

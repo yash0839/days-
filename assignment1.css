@@ -1,0 +1,51 @@
+div{
+    color: white;
+    background-color: rgb(2, 4, 66);
+    text-align: center;
+    /* font-size: 40px; */
+    height: 150px;
+    width:  598x;
+}
+#a{
+    background-color: rgb(3, 28, 139);
+}
+#a h6{
+    font-style: italic;
+}
+
+#b{
+    background-color: white;
+    color: black;
+}
+
+#c{
+    background-color: lightblue;
+    color: black;
+}
+#c p{
+    background-color: white;
+}
+ 
+#d{
+    background-color: lightyellow;
+    color: black;
+}
+#d p{
+    background-color: white;
+}
+
+#e{
+    background-color: rgb(108, 45, 89);
+    color: black;
+}
+#e p{
+    background-color: white;
+}
+
+#f{
+    background-color: lightgreen ;
+    color: black;
+}
+#f li{
+    background-color: white;
+}
