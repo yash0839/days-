@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: white;
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+main{
+    height: 100%;
+    width:100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 80px;
+    grid-gap:10px;
+    padding : 10px;
+    grid-template-areas: "header header"
+                        "aside section"
+                        "footer footer";
+      
+}
+header{
+    background-color: darkcyan;
+    grid-area: header;
+}
+aside{
+    background-color: darkorchid;
+    grid-area:aside;
+}
+section{
+    background-color: rgb(11, 11, 152);
+    grid-area: section ;
+}
+footer{
+    background-color: rgb(175, 3, 29) ;
+    grid-area:footer;
+   
+}

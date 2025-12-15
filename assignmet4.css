@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body main {
+  width: 100%;
+  align-items: center;
+}
+body main section.view1 {
+  width: 100%;
+  background-color: rgb(234, 13, 168);
+}/*# sourceMappingURL=assignmet4.css.map */

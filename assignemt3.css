@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: white;
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+main{
+    height:100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    grid-template-rows: 20px 60px 1fr;
+
+}
+header{
+    background-color: darkmagenta;
+
+}
+aside{
+    background-color: chocolate;
+}
+section{
+    background-color: cornflowerblue;
+}
+figure{
+    background-color: lightslategray;
+}

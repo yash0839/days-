@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+h2{
+    color: rgb(6, 134, 254);
+    text-align: center;
+    margin-top: 200px;
+    font-size: 400px;
+}
+
+#inc, #dec{
+    color: white;
+    background-color: red;
+    font-size: 200px;
+    margin: 150px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
