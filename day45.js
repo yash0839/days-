@@ -21,7 +21,6 @@ btn.addEventListener('click',function(){
         clearInterval(int)
         btn.innerHTML='Downloaded'
         btn.style.opacity= 0.5
-        console.log('Your file will be Downloaded in ',num/10,'Seconds');
      },num*100);
 
 })

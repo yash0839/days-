@@ -1,0 +1,32 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100;
+}
+body{
+    background-color: #111;
+    padding:30px;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+h3{
+    color: #fff;
+}
+button{
+    height:50px;
+    width: 120px;
+    background-color: royalblue;
+    color: #fff;
+    border-radius: 10px;
+}

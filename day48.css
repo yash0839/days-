@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    cursor: none;
+}
+#main{
+    height: 200%;
+    width: 200%;
+    background-color: #172227;
+}
+
+#cursor{
+    height: 20px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+
+}
