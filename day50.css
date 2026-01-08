@@ -1,0 +1,127 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;  
+ color: white; 
+}
+html, body{
+    height: 100%;
+    width:100%;
+}
+body{
+    background-color: #111;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(49, 49, 49, 0),rgba(47, 46, 46, 0.369));
+    padding: 20px;
+
+}
+section{
+    height: 100%;
+    width:350px;
+    background-color: black;
+    border-radius: 10px;
+    margin:auto;
+}
+.all-reels{
+    height: 100%;
+    width: 100%;
+        overflow: auto;
+    scroll-snap-type:y mandatory;
+    scroll-behavior:smooth
+}
+.all-reels::-webkit-scrollbar{
+    display: none;
+}
+
+.reels{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: aquamarine;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    scroll-snap-align: start;
+    scroll-snap-stop:always;
+}
+.reels video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+.reels .bottom{
+    padding : 30px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.24));
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.bottom .user{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 20px;
+        /* flex-wrap: wrap; */
+
+}
+.bottom .user img{
+    height: 25px;
+    width:25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bottom .user h4{
+    font-size:15px;
+    font-weight: 500;
+}
+.bottom .user button{
+    background-color: transparent;
+    padding: 2px 4px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 1px solid white;
+}
+.bottom>h3{
+    font-weight: 500;
+    font-size: 20px;;
+}
+.right{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-align: center;
+    width:40px; 
+    /* height: 100%; */
+   position: absolute;
+   right: 0;
+   /* transform: translate(100%); */
+   bottom:12%;
+   /* background: linear-gradient(to right, transparent,black); */
+   
+}
+.right h4{
+    cursor: pointer;
+}
+.right i{
+    font-size: 22px;
+    font-weight: 400;
+}
+.right h6{
+    font-size: 18px;
+    font-weight: 400;
+}
+.right>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.love{
+    color: red;
+}

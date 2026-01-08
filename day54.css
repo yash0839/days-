@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(110, 201, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes changebackgroundColor{
+    from{
+        background-color: white;
+        border-radius: 0px;
+                /* scale: 1; */
+        transform: translateX(0px) scale(1);
+ }
+    to{
+        background-color: rgb(128, 74, 183);
+        border-radius: 20px;
+        /* scale: 0.5; */
+        transform: translateX(100px) scale(0.5);
+    }
+}
+.box{
+    height: 200px;
+    width: 400px;
+     /* background-color: rgb(150, 145, 145); */
+    /* box-shadow: 0 0 50px red; */ 
+    animation:  changebackgroundColor 5s infinite forwards alternate;
+}
+    

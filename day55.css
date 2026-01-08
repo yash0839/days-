@@ -1,0 +1,61 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    anchor-name: --some-anchor;
+}
+.box{
+    height: 200px;
+    width: 200px;
+}
+.box:hover{
+    anchor-name: --some-anchor;
+}
+
+.red{
+    background-color: rgb(108, 24, 24);
+    anchor-name: --some-anchor;
+}
+.blue{
+    background-color: rgb(18, 18, 113);
+}
+.green{
+    background-color: rgb(17, 110, 17);
+}
+.anchor{
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    /* height: 50px;
+    width: 50px; */
+    top: anchor(top);
+    left:anchor(left);
+    bottom: anchor(bottom);
+    right: anchor(right);
+    pointer-events: none;
+    position-anchor: --some-anchor;
+    transition: all 0.5s linear;
+    mix-blend-mode: difference;
+}
+
+body:has(.box:hover) .box{
+    transform:scale(0.8);
+    opacity: 0.8;
+}
+
+body .box:hover{
+    transform: scale(1.2) !important;
+    opacity: 1 !important;
+}
