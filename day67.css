@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'helventica neue';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+h1{
+    background-color: white;
+}
+#box{
+    height:200px;
+    width: 200px;
+    background-color: lightblue;
+}
+#circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+}
